@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Chuvi {
+public class ChuviHT {
 	
 	
 	 
