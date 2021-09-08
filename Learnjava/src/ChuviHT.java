@@ -8,9 +8,9 @@ public class ChuviHT {
 	    }
 	    public static void main(String[] args) {
 	        double r;
-	        Scanner scanner = new Scanner(System.in);
+	        Scanner sc = new Scanner(System.in);
 	        System.out.println("Nhập bán kính hình tròn: ");
-	        r = scanner.nextDouble();
+	        r = sc.nextDouble();
 	   
 	        System.out.println("Chu vi hình tròn là: "+ tinhchuvi(r));
 	   
