@@ -5,9 +5,11 @@ public class ThueThuNhapCaNhan {
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
-
-		System.out.print("(0-single filer, 1-married jointly or "
-				+ "qualifying widow(er), 2-married filing separately, 3-head of " + "household) Nhập trình trạng hiện tại: ");
+		final int SG = 0;//single filers
+		final int MF = 1;//marrie filing jointly
+		final int MFS = 2;//married filing separately
+		final int HH = 3;//head ofhousehold
+		System.out.print("Nhập trình trạng hiện tại: ");
 		int status = input.nextInt();
 
 		System.out.print("Nhập thu nhập: ");
