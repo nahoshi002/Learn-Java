@@ -7,7 +7,7 @@ public class ThueThuNhapCaNhan {
 		Scanner input = new Scanner(System.in);
 
 		System.out.print("(0-single filer, 1-married jointly or "
-				+ "qualifying widow(er), 2-married filing separately, 3-head of " + "household) Nhập trình trạng: ");
+				+ "qualifying widow(er), 2-married filing separately, 3-head of " + "household) Nhập trình trạng hiện tại: ");
 		int status = input.nextInt();
 
 		System.out.print("Nhập thu nhập: ");
