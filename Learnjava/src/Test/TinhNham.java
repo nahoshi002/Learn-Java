@@ -14,7 +14,7 @@ public class TinhNham {
 		System.out.println("Nhập số thứ hai: ");
 		n2 = scanner.nextInt();
 		if(n1>=n2) {
-			System.out.println("What is n1-n2: ");
+			System.out.println("Kết quả của phép tính số thứ nhất trừ số thứ hai là bao nhiêu? ");
 			int n;
 			System.out.println("Nhập vào kết quả phép trừ: ");
 			n = scanner.nextInt();
