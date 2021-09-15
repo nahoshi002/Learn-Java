@@ -12,7 +12,7 @@ public class BMI {
         float cannang = s.nextFloat();
         System.out.print("Nhập chiều cao tính bằng m: ");
         float chieucao = s.nextFloat();
-        // cachtinhbmi
+        // tinh toan BMI cua doi tuong
         float bmi = (cannang)/(chieucao*chieucao);
         System.out.println("BMI: "+bmi);
         printbmi(bmi);
