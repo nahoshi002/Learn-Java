@@ -8,6 +8,8 @@ public class BMI {
     }
 	public static void tinhbmi()  {
         Scanner s = new Scanner(System.in);
+        System.out.print("Nhập tuổi: ");
+        float age = s.nextFloat();
         System.out.print("Nhập cân nặng tính bằng kg: ");
         float cannang = s.nextFloat();
         System.out.print("Nhập chiều cao tính bằng m: ");
