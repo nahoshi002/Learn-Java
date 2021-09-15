@@ -8,7 +8,7 @@ public class ThueThuNhapCaNhan {
 		final int SG = 0;//single filers
 		final int MF = 1;//marrie filing jointly
 		final int MFS = 2;//married filing separately
-		final int HH = 3;//head ofhousehold
+		final int HH = 3;//head of household
 		System.out.print("Nhập trình trạng hiện tại: ");
 		int status = input.nextInt();
 
