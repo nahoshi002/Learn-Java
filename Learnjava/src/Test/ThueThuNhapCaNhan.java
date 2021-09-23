@@ -17,7 +17,7 @@ public class ThueThuNhapCaNhan {
 
 		double tax = 0;
 
-		if (status == 0) {
+		if (status == SG) {
 			if (income <= 8350)
 				tax = income * 0.10;
 			else if (income <= 33950)
@@ -30,7 +30,7 @@ public class ThueThuNhapCaNhan {
 				tax = income * 0.33;
 			else
 				tax = income * 0.35;
-		} else if (status == 1) {
+		} else if (status == MF) {
 			if (income <= 16700)
 				tax = income * 0.10;
 			else if (income <= 67900)
@@ -43,7 +43,7 @@ public class ThueThuNhapCaNhan {
 				tax = income * 0.33;
 			else
 				tax = income * 0.35;
-		} else if (status == 2) {
+		} else if (status == MFS) {
 			if (income <= 8350)
 				tax = income * 0.10;
 			else if (income <= 33950)
@@ -56,7 +56,7 @@ public class ThueThuNhapCaNhan {
 				tax = income * 0.33;
 			else
 				tax = income * 0.35;
-		} else if (status == 3) {
+		} else if (status == HH) {
 			if (income <= 11950)
 				tax = income * 0.10;
 			else if (income <= 44500)
