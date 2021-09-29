@@ -11,7 +11,7 @@ public class KiemTraThuNgay {
         
         System.out.println("Nhập vào ngày thứ: ");
         number = scanner.nextInt();
-        switch (number){
+        switch (Math.abs(number)%7){
         	case 1 : System.out.println("Monday!!!");
         	break;
         	case 2 : System.out.println("Tuesday!!!");
