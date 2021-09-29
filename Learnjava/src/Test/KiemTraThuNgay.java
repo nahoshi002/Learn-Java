@@ -24,7 +24,7 @@ public class KiemTraThuNgay {
         	break;
         	case 6 : System.out.println("Saturday !!!");
         	break;
-        	case 7 : System.out.println("Sunday !!!");
+        	case 0 : System.out.println("Sunday !!!");
         	break;
         	default: System.out.println("Ngày sai !!!");
         }
