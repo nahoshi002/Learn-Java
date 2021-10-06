@@ -11,7 +11,7 @@ public class FibonacciNgTo_P2 {
         System.out.printf("Các số fibonacci nhỏ hơn %d và "
                 + "là số nguyên tố: ", n);
         int i = 0;
-        while (fibonacci(i) < 100) {
+        while (fibonacci(i) < n) {
             int fi = fibonacci(i);
             if (isPrimeNumber(fi)) {
                 System.out.print(fi + " ");
