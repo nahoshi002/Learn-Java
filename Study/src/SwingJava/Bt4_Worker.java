@@ -2,7 +2,8 @@ package SwingJava;
 
 import java.util.Scanner;
 import SwingJava.Bt2_Tax.payTax;
-public class Bt4_Worker extends Bt1_Person implements payTax{
+
+public class Bt4_Worker extends Bt1_Person implements payTax {
 	// Thuoc tinh
 	protected static String name, email;
 	protected static int citizenID, phone;
