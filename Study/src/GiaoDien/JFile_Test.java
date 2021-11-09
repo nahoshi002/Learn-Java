@@ -37,6 +37,7 @@ public class JFile_Test extends JFrame implements ActionListener{
     private final JButton btnNewButton = new JButton("Trang Chủ");
     private final JButton btnNewButton_1 = new JButton("Hệ Thống");
     private final JButton btnNewButton_2 = new JButton("Giao Diện");
+    private final JButton btnNewButton_3 = new JButton("Âm thanh");
      
     public JFile_Test(){
     	 super("Thanh Công Cụ");
@@ -62,6 +63,8 @@ public class JFile_Test extends JFrame implements ActionListener{
     	 mnMenu4.add(btnNewButton_1);
     	 
     	 mnMenu4.add(btnNewButton_2);
+    	 
+    	 mnMenu4.add(btnNewButton_3);
         initComponents();
     }
      

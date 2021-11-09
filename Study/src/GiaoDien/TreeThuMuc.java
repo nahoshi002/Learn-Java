@@ -17,13 +17,13 @@ import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.TreeModel;
 import javax.swing.tree.TreePath;
 
-public class TestClass extends JFrame {
+public class TreeThuMuc extends JFrame {
 
 	private JTree fileTree;
 	private FileSystemModel fileSystemModel;
 	private JTextArea fileDetailsTextArea = new JTextArea();
 
-	public TestClass(String directory) {
+	public TreeThuMuc(String directory) {
 		super("JTree");
 		fileDetailsTextArea.setEditable(false);
 		fileSystemModel = new FileSystemModel(new File(directory));
@@ -57,7 +57,7 @@ public class TestClass extends JFrame {
 
 	// duongdanfile
 	public static void main(String args[]) {
-		new TestClass("C:\\Users\\ADHAO\\eclipse-workspace");
+		new TreeThuMuc("C:\\Users\\ADHAO\\eclipse-workspace");
 	}
 }
 

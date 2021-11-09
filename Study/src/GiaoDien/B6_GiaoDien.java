@@ -34,7 +34,7 @@ import java.awt.event.ActionEvent;
 import java.awt.Color;
 import javax.swing.UIManager;
 
-public class GDNew extends JFrame {
+public class B6_GiaoDien extends JFrame {
 
 	protected static final Date Date = null;
 	private JPanel contentPane;
@@ -51,7 +51,7 @@ public class GDNew extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					GDNew frame = new GDNew();
+					B6_GiaoDien frame = new B6_GiaoDien();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -63,7 +63,7 @@ public class GDNew extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public GDNew() {
+	public B6_GiaoDien() {
 		setForeground(UIManager.getColor("textHighlight"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 511, 573);

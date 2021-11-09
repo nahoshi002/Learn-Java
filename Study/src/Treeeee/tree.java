@@ -25,21 +25,21 @@ public class tree extends JFrame {
 		// create the root node
 		DefaultMutableTreeNode sinhvat = new DefaultMutableTreeNode("sinhvat");
 		// create the child nodes
-		DefaultMutableTreeNode bird = new DefaultMutableTreeNode("chim");
-		bird.add(new DefaultMutableTreeNode("chimnho"));
-		bird.add(new DefaultMutableTreeNode("chimto"));
-		bird.add(new DefaultMutableTreeNode("chimbiendi"));
-		bird.add(new DefaultMutableTreeNode("chimkhuyettat"));
+		DefaultMutableTreeNode SVduoinuoc = new DefaultMutableTreeNode("Duoi nuoc");
+		SVduoinuoc.add(new DefaultMutableTreeNode("ca"));
+		SVduoinuoc.add(new DefaultMutableTreeNode("tom"));
+		SVduoinuoc.add(new DefaultMutableTreeNode("cua"));
+		SVduoinuoc.add(new DefaultMutableTreeNode("oc"));
 
-		DefaultMutableTreeNode buffterfly = new DefaultMutableTreeNode("buom");
-		buffterfly.add(new DefaultMutableTreeNode("buomden"));
-		buffterfly.add(new DefaultMutableTreeNode("buom7mau"));
-		buffterfly.add(new DefaultMutableTreeNode("buommoilon"));
-		buffterfly.add(new DefaultMutableTreeNode("buomto"));
-		buffterfly.add(new DefaultMutableTreeNode("buomvua"));
+		DefaultMutableTreeNode SVtrencan = new DefaultMutableTreeNode("tren can");
+		SVtrencan.add(new DefaultMutableTreeNode("cho"));
+		SVtrencan.add(new DefaultMutableTreeNode("meo"));
+		SVtrencan.add(new DefaultMutableTreeNode("bo"));
+		SVtrencan.add(new DefaultMutableTreeNode("ga"));
+		SVtrencan.add(new DefaultMutableTreeNode("va em:v"));
 		// add the child nodes to the root node
-		sinhvat.add(bird);
-		sinhvat.add(buffterfly);
+		sinhvat.add(SVduoinuoc);
+		sinhvat.add(SVtrencan);
 
 		// create the tree by passing in the root node
 		tree = new JTree(sinhvat);
