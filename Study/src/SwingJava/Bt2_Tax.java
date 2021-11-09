@@ -17,12 +17,12 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextArea;
+import com.toedter.calendar.JDateChooser;
 
 public class Bt2_Tax extends JFrame  {
 
 	private JPanel contentPane;
 	private JTextField hoten;
-	private JTextField ngaysinh;
 	private JTextField truonghoc;
 	
 	public interface payTax {
@@ -82,11 +82,6 @@ public class Bt2_Tax extends JFrame  {
 		comboBox.setBounds(131, 205, 68, 21);
 		contentPane.add(comboBox);
 		
-		ngaysinh = new JTextField();
-		ngaysinh.setBounds(132, 141, 273, 19);
-		contentPane.add(ngaysinh);
-		ngaysinh.setColumns(10);
-		
 		JLabel lblNewLabel_3 = new JLabel("Truong Hoc:");
 		lblNewLabel_3.setBounds(22, 264, 84, 25);
 		contentPane.add(lblNewLabel_3);
@@ -112,5 +107,9 @@ public class Bt2_Tax extends JFrame  {
 		JLabel lblNewLabel_4 = new JLabel("Ket qua:");
 		lblNewLabel_4.setBounds(461, 36, 68, 25);
 		contentPane.add(lblNewLabel_4);
+		
+		JDateChooser dateChooser = new JDateChooser();
+		dateChooser.setBounds(132, 144, 148, 19);
+		contentPane.add(dateChooser);
 	}
 }
