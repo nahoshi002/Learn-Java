@@ -22,7 +22,7 @@ public class B1_Main {
 
 	@Override
 	public String toString() {
-		return "StudentManagement_Bai1 [studentList=" + studentList + ", getStudentList()=" + getStudentList() + "]";
+		return "B1_Main [studentList=" + studentList + ", getStudentList()=" + getStudentList() + "]";
 	}
 
 	void input(int n) {
