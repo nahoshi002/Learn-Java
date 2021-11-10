@@ -4,19 +4,13 @@ import java.io.Serializable;
 import java.util.Scanner;
 
 public abstract class B2_Person implements Comparable<B2_Person>, Serializable, Cloneable {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	private String name;
 	private char gender; // 0 nam / 1 nu
 	private int birth_year;
 
-	/**
-	 * @param name
-	 * @param gender
-	 * @param birth_year
-	 */
+	
 	public B2_Person() {
 		super();
 	}

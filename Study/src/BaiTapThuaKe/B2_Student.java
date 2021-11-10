@@ -3,20 +3,13 @@ package BaiTapThuaKe;
 import java.util.Scanner;
 
 public class B2_Student extends B2_Person {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
 	private String studentID;
 	private int academic_year;
 	private float gpa, social_activities;
 
-	/**
-	 * @param studentID
-	 * @param academic_year
-	 * @param gpa
-	 * @param social_activities
-	 */
+	
 	public B2_Student() {
 		super();
 	}
