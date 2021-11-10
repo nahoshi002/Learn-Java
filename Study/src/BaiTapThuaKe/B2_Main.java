@@ -105,7 +105,7 @@ public class B2_Main {
 					studentArrayList.add(s);
 				}
 
-				// System.out.println(line);
+				
 				System.out.println("Them vao File " + fileName + " in ArrayList: \n");
 				for (int i = 0; i < studentArrayList.size(); i++) {
 					System.out.println("ID: " + studentArrayList.get(i).getStudentID());
