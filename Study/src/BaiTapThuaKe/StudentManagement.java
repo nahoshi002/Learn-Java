@@ -66,14 +66,14 @@ public class StudentManagement {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
-		System.out.println("Nhap so sinh vien");
+		System.out.println("Nhap so luong sinh vien: ");
 		int n = input.nextInt();
 		
 		StudentManagement list = new StudentManagement();
 		list.students = new Student[n];
 		
 		for(int i = 0; i < n; i++) {
-			System.out.println("Nhap thong tin cho sinh vien thu " + (i + 1) + ": ");
+			System.out.println("Nhap thong tin cho sinh vien thu: " + (i + 1) + ": ");
 			//
 			list.students[i] = new Student();
 			list.students[i].setInfo();
@@ -86,7 +86,7 @@ public class StudentManagement {
 		// Sap xep
 		Student[] result = sortStudent(list.students);
 		// Hien thi
-		System.out.println("Sau khi sap xep: ");
+		System.out.println("Danh sach sau khi sap xep: ");
 		Show(result);
 		//
 		// Ghi file
