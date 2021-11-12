@@ -36,7 +36,7 @@ public class StudentManagement {
 	public void write(Student[] student) { 
 		
         try {   
-            FileOutputStream f = new FileOutputStream("D:\\student.txt");   // tao file f tro den student.dat
+            FileOutputStream f = new FileOutputStream("D:\\student.txt");   // tao file f tro den student.txt
             ObjectOutputStream oStream = new ObjectOutputStream(f); // dung de ghi theo Object vao file f
             oStream.writeObject(student);   // ghi student theo kieu Object vao file
             oStream.close();
