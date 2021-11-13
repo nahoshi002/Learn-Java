@@ -15,7 +15,7 @@ public class StudentManagement {
 	public static void Show(Student[] students) {
 		for (Student o: students) {
 			System.out.println(o.toString());
-			System.out.println("........................................");
+			System.out.println(" ");
 		}
 	}
 	
